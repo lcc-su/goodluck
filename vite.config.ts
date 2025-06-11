@@ -15,7 +15,7 @@ export default defineConfig({
   plugins: getPlugins(),
   base: '/',
   build: {
-    outDir: 'dist/static',
+    outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: true,
     rollupOptions: {
